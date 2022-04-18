@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+
+
+/*BASE*/
+body{font-family:'NotoSansSC','NotoSans', simsun, 'Microsoft Yahei', Arial, sans-serif;word-break:break-all}
+
+/*MAIN*/
+.m_intro em{width:60px;left:-50px}
+.m_intro h2 b{display:inline-block}
+@media all and (min-width:1024px){
+.sec03 .grid_box h3, .sec03 .grid_box h3:last-of-type{left:370px}
+}
+@media all and (min-width:1200px){
+.sec04 .relax_box.on h3, .sec04 .relax_box.on h3:last-of-type{left:33rem;}
+.sec06 .sns_box a i{word-break:keep-all}
+}
+
+
+
+
+/*CONTENTS*/
+
+
+.basic_box::after{left:190px;}
+.kfashion_wrap .address_dl dt{width:30%}
+.kfashion_wrap .address_dl dd{width:calc(70% - 4px)}
+.taxi_wrap .basic_box::after{left:190px;}
+.taxi_wrap .basic_box.bb_ty1::after{right:160px;}
+@media all and (min-width: 768px){
+.ktravel_wrap .step_bullet{padding-left: 60px;text-indent:-46px;}
+.taxi_wrap .address_dl dt{width:30%;}
+.taxi_wrap .address_dl dd{width:calc(70% - 4px);}
+}
+@media all and (min-width: 1200px){
+}
+
+
+
+/*-----------------------------------------*/
+
+
+
+
+
+
+@media all and (min-width: 1200px){
+.streetCourse_wrap .cyclemap_01>div,.streetCourse_wrap .cyclemap_02>div,.streetCourse_wrap .cyclemap_03>div,.streetCourse_wrap .cyclemap_04>div{background-image:none}
+.widthScroll_wrap h4, .widthScroll_wrap .txt{padding-right:0;}
+}
+
+
+
+
+
+.tourtable_wrap .basic_box{padding-left:0;}
+
+
+
+
+

@@ -1,0 +1,68 @@
+@import url(base.css);
+@import url(font.css);
+@import url(aos.css);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(common.css);
+@import url(layout.css);
+@import url(content.css);
+@import url(bbs.css);
+@import url(bbs_custom.css);
+@import url(bbs_performance.css);
+@import url(main.css);
+
+/*@import url(lang_common.css);*/
+/*@import url(lang_en.css);*/
+/*@import url(lang_ja.css);*/
+/*@import url(lang_zh.css);*/
+/*@import url(lang_es.css);*/
+/*@import url(lang_fr.css);*/
+
+
+/*
+새창열림  open new page
+
+
+출처
+fuente de la foto
+source de photos
+*/
+
+
+/*English
+자세히보기	View More
+바로가기	Shortcut 
+좌우로 이동할 수 있습니다.   You can swipe left or right.
+*/
+/*日本語
+--------------------
+자세히보기 続きを読む
+바로가기 リンク先に移動
+좌우로 이동할 수 있습니다.   左または右にスワイプできます。
+--------------------
+*/
+/*
+中国語
+--------------------
+자세히보기 查看具体内容
+바로가기 跳转
+좌우로 이동할 수 있습니다.   您可以向左或向右滑动。
+주소	地址
+--------------------
+*/
+
+/*Español
+자세히보기	Ver más detalles
+바로가기	Acceso directo
+좌우로 이동할 수 있습니다.   Puede deslizar el dedo hacia la izquierda o hacia la derecha.
+*/
+
+/*français
+자세히보기	Voir en détail
+바로가기	Voir en détail
+좌우로 이동할 수 있습니다.   Vous pouvez vous déplacer à gauche et à droite.
+*/
+
+
+
+
+

@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/*BASE*/
+body{font-family:'NotoSansJP', 'NotoSans', 'MS PGothic', 'ＭＳ Ｐゴシック', 'Meiryo', Arial, sans-serif;word-break:break-all}
+
+
+/*MAIN*/
+.m_intro h2 b{display:inline-block}
+.sec02 h2:nth-of-type(2){left:10rem}
+.m_grid h2{font-size: 2rem}
+.sec06 h2{font-size: 2rem;}
+@media all and (min-width:1200px){
+.m_grid h2{font-size: 3.375rem}
+.sec04 .relax_box.on p.on{width:34%;}
+.sec06 h2{font-size: 3.375rem}
+}
+
+
+
+
+/*CONTENTS*/
+.kfashion_wrap .address_dl dt,
+.taxi_wrap .address_dl dt{width:26%}
+.kfashion_wrap .address_dl dd,
+.taxi_wrap .address_dl dd{width:calc(74% - 4px)}
+.taxi_wrap .basic_box::after{left:190px;}
+.taxi_wrap .basic_box.bb_ty1::after{right:190px;}
+
+@media all and (min-width: 768px){
+.ktravel_wrap .step_bullet{padding-left: 80px;text-indent:-60px;}
+}
+@media all and (min-width: 1200px){
+}
+
+
+/*-----------------------------------------*/
+
+
+
+
+
+
+.tourtable_wrap .basic_box{padding-left:0;}
+
+
+
+
+
+@media all and (min-width: 1400px){
+.bibimbap_1 li:nth-of-type(5){margin-bottom:0;bottom:10%}
+}
+
+
+

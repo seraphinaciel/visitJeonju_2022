@@ -1,0 +1,107 @@
+@charset "utf-8";
+/*22-1-20 완료*/
+
+/*LAYOUT*/
+header h1 a{background: url(/images/language/logo_m.svg) no-repeat 1rem center}
+.gnb_nav .g_plan_btn{display:none}
+.s_location .btn_set{text-transform:uppercase}
+footer .fnb{display:none}
+@media all and (min-width:1200px){
+.lnb_box>li{width:24%;border:0;position:relative}
+.lnb_box>li::after{width:2px;height:1rem;background:#dfdfdf;position:absolute;top:1rem;right:0;content:""}
+.lnb_depth{width:auto;}
+.lnb_depth a{font-size: 1rem;padding-right:40px}
+footer .finfo{width:100%;text-align: center}
+}
+@media all and (min-width:1400px){
+header.first h1 a{background: url(/images/language/logo_w.svg) no-repeat center}
+header h1 a{background: url(/images/language/logo_b.svg) no-repeat center}
+.gnb::after{height:90vh;}
+.nav{height: 78%;padding: 100px 0 0;overflow: auto;}
+.nav div{width:calc(100% / 5 - 4px)}
+.side_gnb_nav .g_lang a{width:30px}
+}
+
+
+/*BOARD*/
+.dbView_tag p>*{padding:1rem;}
+.dvc_basic dt{padding: 1rem 0;}
+@media all and (min-width:500px){
+.dvc_basic dd{padding-left: 2rem;}
+}
+@media all and (min-width:1400px){
+.dvc_basic dt{text-align: center;}
+}
+
+
+
+
+
+
+
+
+
+
+/*CONTENTS*/
+.txt{letter-spacing:0;word-spacing:0}
+.s_container h3{letter-spacing:0;}
+.hotspotSlide_wrap{max-height:620px}
+.trip_wrap .address_ul li li{padding:0 0 0 4px;font-size:1rem;}
+.festival_wrap .address_dl{padding-top:1.25rem}
+.festival_wrap .address_dl dt{width:100%}
+.festival_wrap .address_dl dt::before{content: "* "}
+.festival_wrap .address_dl dd{width:100%;padding-left:1rem}
+.market_wrap .tit{padding:2rem 0}
+.taxi_wrap .address_dl dt{width:100%;}
+.taxi_wrap .address_dl dd{width:100%;}
+.taxi_wrap .basic_box::after{left:170px;}
+.taxi_wrap .basic_box.bb_ty1::after{left:-5px;}
+.tourtable_info{max-width:900px}
+.infoCenter_wrap dt{width:30%}
+.infoCenter_wrap dd{width:calc(70% - 4px)}
+.infoCenter_wrap .txt{height:auto;font-size:1.125rem;font-weight:400;}
+@media all and (min-width: 768px){
+.address_dl dt{width:20%;}
+.address_dl dd{width:calc(80% - 4px)}
+.bgWelcome .address_dl dt{color:#622c8a}
+.festival_wrap .tit .txt{width:100%;float:none}
+.festival_wrap .tit ul{border-top:1px dashed #ddd;padding:1rem 0 0}
+.festival_wrap .tit li{display:block;margin-right:2rem;}
+.festival_wrap .tit li strong{margin-right:6px}
+.festival_wrap .tit li strong::before{width:6px;height:2px;margin-right:4px;background:gold;display:inline-block;content:""}
+.festival_wrap .tit li strong::after{width:2px;height:10px;margin-left:10px;background:#fff;display:inline-block;content:""}
+.bgPlay.tit li{display:inline-block;}
+.taxi_wrap .address_dl dt{width:100%;}
+.taxi_wrap .address_dl dd{width:calc(100% - 4px);}
+.map_boxbox li{float:none;width:auto;}
+.map_boxbox li a{width:40%;padding:1rem}
+.infoCenter_wrap::after{display:block;clear:both;content:""}
+.infoCenter_wrap figure{width:100%;}
+.infoCenter_wrap img{float:left;width:38%;margin-right:2%;}
+.infoCenter_wrap figcaption{float:left;width:60%;margin-top:0; text-align: left;}
+.infoCenter_wrap .address_dl{max-width:none; float:left;}
+}
+@media all and (min-width: 1024px){
+.curtainCon.col4 .item{padding-top:136px}
+.trip_wrap .tripTitle .address_ul{position:static;float:left;padding-left:2%}
+.trip_wrap .col2 .address_ul{width:50%;}
+.trip_wrap .col2-1 p{width:60%;float:left}
+.trip_wrap .col2-1 .address_ul{width:40%;padding-left:5%;margin-top:0;}
+.hotspotSlide_wrap .btn_circle{top: 0;}
+.market_wrap .tit .txt{width:100%;}
+.market_wrap .tit .address_ul{width:100%;border-top:1px dashed #888;padding:1rem 0 0 1rem;margin-top:2rem;}
+.market_wrap .tit .address_ul li{display:inline-block;margin-right:2rem;vertical-align:middle;padding-bottom:1rem}
+}
+@media all and (min-width: 1200px){
+.hotspotSlide_wrap{max-height:700px}
+}
+@media all and (min-width: 1400px){
+.map_boxbox:last-of-type{margin-top:0}
+.infoCenter_wrap figure{height:auto;margin-right:0;padding:2rem 1.25rem;}
+.infoCenter_wrap img{width:18%;}
+.infoCenter_wrap figcaption{width:80%}
+.infoCenter_wrap figcaption div{float:left;width:38%;margin-right:2%;}
+.infoCenter_wrap figcaption .txt{margin-bottom:0}
+.infoCenter_wrap .address_dl{float:left;width:60%;border-top:0;border-left:1px solid #dfdfdf;padding:0 0 0 2%}
+}
+

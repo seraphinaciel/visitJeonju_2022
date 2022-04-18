@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+body{min-width: 320px; font-size:16px;margin:0;padding:0;font-family:'NotoSans', '노토산스', 'NotoSansSC', Arial, sans-serif;color:#000;font-weight:400;word-break:keep-all;scrollbar-3dLight-Color: #fff;scrollbar-arrow-color: #fff;scrollbar-Face-Color: #622c8a;crollbar-Track-Color: #fff;scrollbar-DarkShadow-Color: #fff;scrollbar-Highlight-Color: #fff;scrollbar-Shadow-Color: #622c8a;}
+body::-webkit-scrollbar{width:1rem;}
+body::-webkit-scrollbar-track{background:#fff;}
+body::-webkit-scrollbar-thumb{background:#622c8a;border-radius:50px;box-shadow: inset 0 0 5px #430a68}
+body::-webkit-scrollbar-thumb:hover,
+body::-webkit-scrollbar-thumb:active{background:gold}
+body::-webkit-scrollbar-button{display:none}
+
+body, button, caption, div, dl, dt, dd, form, fieldset, figcaption, figure, footer, header, h1, h2, h3, h4, h5, h6, img, iframe, input, ul, ol, li, p, section, article, aside, span, table, td, th, tr{margin:0;padding:0;border:none;box-sizing:border-box;vertical-align:middle}
+
+a{display:block}
+a[href^="tel:"]{display:inline-block}
+a, a:visited, a:active, a:hover{color:inherit;border:none;text-decoration:none;}
+a, a:visited{margin:0;padding:0;}
+/*a:hover, a:focus, button:hover, button:focus{font-weight:600;text-decoration:underline;}*/
+/*a:focus,button:focus{outline:3px dotted red}*/
+
+ul, ol, li{list-style:none;}
+em{font-style:normal}
+span{display:inline-block;vertical-align:baseline;}
+::before,::after{vertical-align:middle}
+
+table{border-collapse:collapse;border-spacing:0;font-size:100%;}
+caption{width:0;height:0;line-height:0;text-indent:-9999px;}
+
+legend{display:none;margin:0;padding:0;}
+input, select, textarea, button{font:inherit;margin:0;padding:0;border:0;background:0;cursor:pointer;vertical-align:middle}
+
+hr{visibility:hidden;overflow:hidden;position:absolute;width:0;height:0;font-size:0;line-height:0;}
+
+strong, b, h2, h3, h4, h5{font-weight:600}
+
+/* 아이폰 사파리 라운드 및 그라데이션 없애기  */
+textarea, button {-webkit-appearance:none; -moz-appearance:none; /*appearance:none;*/}
+textarea, button, select {-webkit-border-radius:0; -moz-border-radius:0; -o-border-radius:0; border-radius:0;}
+
+::selection {background:gold;text-shadow:none;}
+
+
+
+
+
+
+/*coluor*/
+:root{
+--mc:#622c8a;
+--bg:#ebebeb;
+--pc:#7401b8;
+--bgh:#430a68;
+--co:#9312e0;
+	
+--c01:#efe9f3;
+--c02:#f4eff7;
+	
+--f:Montserrat;
+	
+--fs12:.75rem;
+--fs14:.875rem;
+--fs18:1.125rem;
+--fs20:1.25rem;
+--fs22:1.375rem;
+--fs24:1.5rem;
+--fs26:1.625rem;
+--fs28:1.75rem;
+--fs30:1.875rem;
+--fs32:2rem;
+--fs34:2.125rem;
+--fs36:2.25rem;
+--fs40:2.5rem;
+--fs46:2.875rem;
+--fs48:3rem;
+--fs54:3.375rem;
+--fs60:3.75rem;
+--fs64:4rem;
+::after{display:block;clear:both;content:""}
+}
+/*
+<a href="" rel="noreferrer noopener" target="_blank" title="새창열림">
+*/
+
+/*
+영
+프
+스
+중
+일
+*/
+
+/*
+2:1 : padding-top: 50%
+1:2 : padding-top: 200%
+4:3 : padding-top: 75%
+16:9 : padding-top: 56.25%
+
+calc(200px * 0.3);  //  30% 적용하기
+padding-top: calc(200px / 16 * 9);
+*/
+
+.none{display:none}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*notice 4차 수정(11.3.) - 국문 images/contents/new04, 외국어 images/contents */
+/*todo LAYOUT 21-10-28(main_en.css, bbs.css, main.css)*/
+/*todo CONTENTS 21-10-29(layout.css, streetmap)*/
+/*future main_en.css(대표), 영문 진행 후 프스 덮어씌우기 - 마무리되면 전체 css 한 번 다시 덮어씌우기*/
+
+/*note     봄 - 맛여행                   국문 images/contents/new04 진행 */
+/*note     Street Map(new) */
+/*note     동문거리(new) */
+/*note     한옥마을 골목길                국문 images/contents/new04 진행 */
+/*note     객리단길                                                  */
+/*note     웨딩의 거리                                                  */
+/*note     자전거길                                                  */
+/*note     첫마중길                      국문 images/contents/new04 진행 */
+/*note     팔복예술공장                                                  */
+/*note     서학예술마을                                                  */
+/*note     서농송예술촌                                                  */
+/*note     독서대전                                                  */
+/*note     전통시장(남부, 중앙, 모래내)    국문 images/contents/new04 진행 */
+/*note     청년몰                       국문 images/contents/new04 진행 */
+
+
+
+

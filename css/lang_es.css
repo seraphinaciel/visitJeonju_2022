@@ -1,0 +1,232 @@
+@charset "utf-8";
+
+/*BASE*/
+body{font-family:'NotoSansSC', 'NotoSans', Arial, sans-serif;text-transform: capitalize}
+
+
+/*MAIN*/
+.m_grid h2{width:70%;text-transform:uppercase}
+
+.m_intro h2{padding:1rem 0 5rem;}
+
+@media all and (min-width: 1400px){.sec01_tourList p{display: none}}
+
+@media all and (min-width:1200px){.sec01 h2{font-size:3.25rem;}}
+.sec02 h2{padding:0;padding-right:3rem;margin-bottom:8rem;line-height:1}
+.sec02 h2 strong{font-weight:600}
+.sec02 h3{top:4.5rem;}
+.sec02 h3:last-of-type{top:7rem;left:1.25rem;}
+@media all and (min-width:449px){
+.sec02 h2{}
+.sec02 h3{top:3.2rem;}
+.sec02 h3:last-of-type{top:3.2rem;left:12rem;}
+}
+@media all and (min-width:768px){
+.sec02 h2{padding-right:50%;}
+.sec02 h3,
+.sec02 h3:last-of-type{top:3.2rem;left:320px}
+.sec02 h3.on{top:0;}
+}
+@media all and (min-width:1024px){
+.sec02 h2{padding:0; padding-bottom:0;}
+.sec02 h3{top:6rem;left:550px;}
+.sec02 h3:last-of-type{top:6rem;left:300px;}
+.sec02 h3.on{top:5rem;left:1.25rem;}
+.sec02 h3.on:last-of-type{top:5rem;left:1.25rem;}
+}
+
+
+.sec03 h2{padding-bottom:6rem;}
+.sec03 h3:last-of-type{top:4.5rem;left:1.25rem;}
+/*.sec03 .mark_show{width:90%;line-height:30px;border-radius:0;}*/
+.sec03 strong{width: auto;border-radius:0;padding: 0 20px;}
+@media all and (min-width:400px){
+.sec03 h3,
+.sec03 h3:last-of-type{top:3.2rem;left:180px;}
+.sec03 h3.on{top:0;}
+}
+@media all and (min-width:1024px){
+.sec03 h2{padding:0; padding-bottom:4rem;}
+.sec03 h3,
+.sec03 h3:last-of-type{top:6rem;left:400px;}
+.sec03 h3.on{top:0;}
+.sec03 dt{width:76px}
+.sec03 dd{width:calc(100% - 84px)}
+}
+
+
+
+
+
+
+
+/*
+.sec04 .relax_box.on h2{padding-bottom:3rem;}
+.sec04 .relax_box.on h3{top:5rem}
+.sec04 .relax_box.on h3:last-of-type{top:8rem;left:1.25rem;}
+.sec04 .relax_box.on h3.on{width:300px;font-weight:600;}
+@media all and (min-width:500px){
+.sec04 .relax_box.on h3{top:3rem}
+.sec04 .relax_box.on h3:last-of-type{top:6rem;}
+}
+@media all and (min-width:600px){
+.sec04 .relax_box.on h2{padding-right:50%;padding-bottom:7rem;margin-bottom:1rem;}
+.sec04 .relax_box.on h3,
+.sec04 .relax_box.on h3:last-of-type{top:3.2rem;left:50%;}
+.sec04 .relax_box.on h3.on{top:0;}
+}
+@media all and (min-width:1024px){
+.sec04 .relax_box.on>div{padding: 0;margin-left:6rem;}
+.sec04 .relax_box.on h3,
+.sec04 .relax_box.on h3:last-of-type{top:5rem;}
+.sec04 .relax_box.on h3.on{top:0rem;left:50%;}
+.sec04 .relax_box.on p.on{width:90%;top:100%;left:0;}
+}
+@media all and (min-width:1200px){
+.sec04 .relax_box h2{width:auto;}
+.sec04 .relax_box h3, 
+.sec04 .relax_box h3:last-of-type{top:14rem;left:auto;right:2rem;}
+.sec04 .relax_box h3.on{top:10rem;left:auto;right:2rem;}
+.sec04 .relax_box h3.on:last-of-type{top:10rem;}
+.sec04 .relax_box.on h3.on:last-of-type{top:0rem;}
+}
+*/
+
+
+.sec06 li a{text-transform: uppercase}
+@media all and (min-width:1200px){
+.sec06 .sns_box a i{word-break:keep-all}
+}
+
+/*BOARD*/
+.dvc_basic dt{font-size:1rem;}
+.tour_search .label_1{width:auto;display:block}
+@media all and (min-width:768px){
+.per_sch .per_right .tour_search li{width:50%}
+}
+@media all and (min-width:1400px){
+.per_sch .per_right .tour_search li{width:100%;text-align:center}
+.per_sch .per_right ul li.search_box{width:100%;max-width:416px;margin:0 auto 10px;float:none}
+}
+@media all and (min-width:1800px){
+.per_sch .per_right .tour_search li{width: 50%;text-align: right;margin: 0 0 10px;}
+.per_sch .per_right ul li.search_box{float: none;width: 47%;}
+}
+.per_sch .per_right .list .txt li{padding:0 0 8px;}
+.per_sch .per_right .list .txt li strong{position: static;display: block;}
+@media all and (min-width:768px){
+.per_inner dt{width: 100%;text-align: left;background:#f3f1ff}
+.per_inner dd{width: 100%;}
+}
+
+
+
+
+
+
+/*COTENTS*/
+.basic_box span{font-size:1.625rem;}
+.basic_box::after{left:200px}
+.courseIndicator li{width:50%;}
+.kfashion_wrap .address_dl dt{width: 30%;}
+.kfashion_wrap .address_dl dd{width: calc(70% - 4px);}
+.taxi_wrap .address_dl dt{border-bottom:1px solid #bbb;padding-bottom:4px;margin-bottom:4px}
+.taxi_wrap .basic_box::after{left:210px;}
+.taxi_wrap .basic_box.bb_ty1::after{right:220px;}
+
+@media all and (min-width: 768px){
+.address_dl dt,
+.address_dl dd{width:100%;}
+.courseIndicator li{width:33.33%;}
+.ktravel_wrap .step_bullet{padding-left: 110px;text-indent:-87px;}
+
+.taxi_wrap .taxi_box{height:410px;}
+}
+@media all and (min-width: 1024px){
+.bgWelcome h3,.bgPalbok h3,.bgArttown h3,.bgArtvillage h3{width:76%;font-size:2.25rem;}
+.bgWelcome .titleH3,.bgPalbok .titleH3,.bgArttown .titleH3,.bgArtvillage .titleH3{width:60%;margin:auto}
+}
+@media all and (min-width: 1200px){
+.vrtour_wrap h3{letter-spacing:normal}
+
+.taxi_wrap .taxi_box{height:340px;}
+}
+@media all and (min-width: 1400px){
+.courseIndicator li{width:14.2857%;}
+.bibimbap_1 li{width:340px}
+}
+
+
+
+
+/*-----------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.season_wrap dt,
+.season_wrap dd{width:100%;text-align:left}
+@media all and (min-width: 768px){
+.season_wrap h4{letter-spacing:0}
+.season_wrap dt{width:120px}
+.season_wrap dd{width:calc(100% - 120px);}
+}
+*/
+.streetCourse_wrap .maparea{margin-top:2rem;}
+.streetCourse_wrap .courseMap li{margin-right:2rem}
+.streetCourse_wrap .courseMap li::after{width:2rem;top:60%}
+.streetCourse_wrap .courseMap h4{max-width:174px;}
+@media all and (max-width: 500px){
+.streetCourse_wrap .streetMap li{display:block;}
+.streetCourse_wrap .streetMap button{text-align: left}
+}
+@media all and (min-width: 1200px){
+.streetCourse_wrap .tit{padding: 7rem 0}
+.streetCourse_wrap .cyclemap_01>div,.streetCourse_wrap .cyclemap_02>div,.streetCourse_wrap .cyclemap_03>div,.streetCourse_wrap .cyclemap_04>div{background-image:none}
+.widthScroll_wrap h4, .widthScroll_wrap .txt{padding-right:0;}
+.weridan_box{height:360px}
+}
+
+
+
+.iconCon_wrap li{padding:0 1rem 1rem;vertical-align: top}
+.iconCon_wrap .col3 li{width:calc(33.333% - 20px);}
+.iconCon_wrap .col4 li,
+.iconCon_wrap .col4 li{width:calc(50% - 20px);}
+@media all and (min-width: 1200px){
+.iconCon_wrap .col4 li{width:calc(25% - 20px);}
+}
+
+
+@media all and (min-width: 1200px){.market_wrap .address_dl, .market_wrap .address_ul{top:8rem;}}
+
+
+
+
+
+.tourtable_box table{min-width: 2600px}
+.tourtable_wrap .basic_box h4::after{height:9px;bottom:-10px;}
+@media all and (min-width: 768px){
+.tourtable_wrap .basic_box h4::after{height:50%;bottom:0;}
+.tourtable_wrap .basic_box dt{text-align:left}
+}
+.map_modal h4{line-height:1.5}
+@media (min-width: 300px) and (max-width: 767px){.map_modal h4{overflow:inherit;text-overflow:inherit;white-space: normal}}
+.marker_wrap span{width:70%;margin:auto;}
+
+
+
+

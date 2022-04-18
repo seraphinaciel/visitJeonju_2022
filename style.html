@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>비짓전주</title>
+<meta name="title" content="비짓전주">
+<meta name="author" content="skoinfo">
+<meta name="keywords" content="지금 전주, 체험 전주, 음식 전주, 숙박 쇼핑, 관광 SNS, 관광 TIP">
+<meta name="description" content="비짓전주">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">	
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="css/import.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+	<article class="s_container " id="content">
+	<!--******************************************************************************************************************-->
+	<!--***컨텐츠 s******************************************************************************************************-->
+	<!--******************************************************************************************************************-->
+
+
+
+
+
+<div class="tab">
+	<ul>
+		<li id="tMenu1"><a href="#tCon1" onclick="hideAllDetail(1);return false;">CHECKBOX</a></li>
+		<li id="tMenu2"><a href="#tCon2" onclick="hideAllDetail(2);return false;">TABLE</a></li>
+		<li id="tMenu3"><a href="#tCon3" onclick="hideAllDetail(3);return false;">TAP</a></li>
+		<li id="tMenu4"><a href="#tCon4" onclick="hideAllDetail(4);return false;">INFO / VIDEO</a></li>
+		<li id="tMenu5"><a href="#tCon5" onclick="hideAllDetail(5);return false;">address_dl</a></li>
+		<li id="tMenu6"><a href="#tCon6" onclick="hideAllDetail(6);return false;">BUTTON</a></li>
+		<li id="tMenu7"><a href="#tCon7" onclick="hideAllDetail(7);return false;">TEXT/LINK</a></li>
+		<li id="tMenu8"><a href="#tCon8" onclick="hideAllDetail(8);return false;">BOX</a></li>
+		<li id="tMenu9"><a href="#tCon9" onclick="hideAllDetail(9);return false;">TEMPLET</a></li>
+		<li id="tMenu10"><a href="#tCon10" onclick="hideAllDetail(10);return false;">BASIC ul/dl</a></li>
+		<li id="tMenu11"><a href="#tCon11" onclick="hideAllDetail(11);return false;">IMAGE BOX</a></li>
+		<li id="tMenu12"><a href="#tCon12" onclick="hideAllDetail(12);return false;">courseMap</a></li>
+		<li id="tMenu13"><a href="#tCon13" onclick="hideAllDetail(13);return false;">MODAL</a></li>
+		<li id="tMenu14"><a href="#tCon14" onclick="hideAllDetail(14);return false;">LAYOUT</a></li>
+	</ul>
+</div>
+
+<div class="tab-con">
+	
+	<div id="tCon1">
+		<div class="checkbox">
+			<input id="place02" type="checkbox" class="cbx_input">
+			<label for="place02" class="cbx_label">
+				<span><svg>
+						<polyline points="1.5 6 4.5 9 12.5 1"></polyline>
+					</svg></span>
+				<span class="text">해외</span>
+			</label>
+		</div>
+
+		<div class="checkbox1">
+			<input id="category01" type="checkbox">
+			<label class="ch_in" for="category01"><span><svg>
+						<polyline points="1.5 6 4.5 9 12.5 1"></polyline>
+					</svg></span>전체</label>
+		</div>
+		<div class="checkbox1">
+			<input id="category002" type="checkbox">
+			<label class="ch_in" for="category002"><span><svg>
+						<polyline points="1.5 6 4.5 9 12.5 1"></polyline>
+					</svg></span>프리미엄</label>
+		</div>
+		<div class="checkbox1">
+			<input id="category003" type="checkbox">
+			<label class="ch_in" for="category003"><span><svg>
+						<polyline points="1.5 6 4.5 9 12.5 1"></polyline>
+					</svg></span>할인미적용</label>
+		</div>
+		<div class="checkbox1">
+			<input id="category004" type="checkbox">
+			<label class="ch_in" for="category004"><span><svg>
+						<polyline points="1.5 6 4.5 9 12.5 1"></polyline>
+					</svg></span>일반</label>
+		</div>
+		<div class="checkbox1">
+			<input id="rgrade1" type="radio" name="rgrade" value="rgrade1">
+			<label class="ch_in" for="rgrade1"><span><svg>
+						<polyline points="1.5 6 4.5 9 12.5 1"></polyline>
+					</svg></span>전체</label>
+		</div>
+		<div class="checkbox2"><label class="ch_in" for="category02"><input id="category02" type="checkbox"><i></i>검색조건명</label></div>
+
+		<div class="checkbox3"><label class="ch_in" for="category03"><input id="category03" type="checkbox"><i></i>검색조건명</label></div>
+
+		<ul class="check_list">
+			<li><input type="checkbox" name="checkbox" id="checkbox" /><label for="checkbox">전체</label></li>
+			<li><input type="checkbox" name="checkbox" id="checkbox1" /><label for="checkbox1">프리미엄</label></li>
+			<li><input type="checkbox" name="checkbox" id="checkbox2" /><label for="checkbox2">우등</label></li>
+			<li><input type="checkbox" name="checkbox" id="checkbox3" /><label for="checkbox3">일반</label></li>
+		</ul>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript">
+			// IE9+
+			$('.check_list>li').on('click', function() {
+
+				// Clicking on the parent row will toggle the child check box
+				$('input[type=checkbox]', this).prop('checked', function(i, checked) {
+					return !checked
+				})
+
+				// Add selected class when box is checked
+				if ($('input[type=checkbox]', this).prop('checked'))
+					$(this).addClass('selected');
+				else
+					$(this).removeClass('selected');
+			});
+		</script>
+	</div>
+	
+	<div id="tCon2">
+		<h3>over_info</h3>
+		<p class="over_p" style="display:block"><em class="over_p">↔</em>over_p, mo 좌우로 이동할 수 있습니다.</p>
+		<h4>over_p mo : 모바일까지 표출</h4>
+		<p class="over_p mo"><em class="over_p">↔</em>좌우로 이동할 수 있습니다.</p>
+		<h4>over_p : 태블릿까지 표출</h4>
+		<p class="over_p"><em class="over_p">↔</em>좌우로 이동할 수 있습니다.</p>
+
+		<h3>flip_table</h3>
+		<div class="flip_table">
+			<table>
+				<caption>
+					청을전통문화원 체험안내
+				</caption>
+				<thead>
+					<tr>
+						<th scope="col">일정</th>
+						<th scope="col">소요시간</th>
+						<th scope="col">단위프로그램명</th>
+						<th scope="col">내용</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>09:00 ~ 09:20</td>
+						<td>20분</td>
+						<td>오리엔테이션 및 안전교육</td>
+						<td>&nbsp;</td>
+					</tr>
+					<tr>
+						<td>09:20 ~ 10:10</td>
+						<td>50분</td>
+						<td>어린이 예절교육1</td>
+						<td>예절이란 무엇인가?(이론)</td>
+					</tr>
+					<tr>
+						<td>10:10 ~ 11:00</td>
+						<td>50분</td>
+						<td>어린이 예절교육2</td>
+						<td>행동예절(인사예절, 절 배우기)</td>
+					</tr>
+					<tr>
+						<td>11:00 ~ 11:50</td>
+						<td>50분</td>
+						<td>어린이 예절교육3</td>
+						<td>복장예절
+							(옷을 입는 목적, 한복입어보기)</td>
+					</tr>
+					<tr>
+						<td>11:50 ~ 12:00</td>
+						<td>10분</td>
+						<td>평가 및 마무리</td>
+						<td>설문조사 및 소감발표</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<h3>over_table</h3>
+		<div class="over_table">
+			<table>
+				<caption>
+					청을전통문화원 체험안내
+				</caption>
+				<thead>
+					<tr>
+						<th scope="col">출발시간</th>
+						<th scope="col">고속사</th>
+						<th scope="col">등급</th>
+						<th scope="col">할인</th>
+						<th scope="col">잔여석</th>
+						<th scope="col">예매하기</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td colspan="6">조회된 값이 없습니다.</td>
+					</tr>
+					<tr>
+						<th scope="row">10:00</th>
+						<td>금호고속</td>
+						<td>프리미엄</td>
+						<td></td>
+						<td>0석</td>
+						<td class="btn_small"><a href="" class="btn_del">매진</a></td>
+					</tr>
+					<tr>
+						<th scope="row">10:20</th>
+						<td>동양고속</td>
+						<td>우등</td>
+						<td></td>
+						<td>11석</td>
+						<td class="btn_small"><a href="" class="btn_add">예매</a></td>
+					</tr>
+					<tr>
+						<th scope="row">10:40</th>
+						<td>금호고속</td>
+						<td>일반</td>
+						<td></td>
+						<td>12석</td>
+						<td class="btn_small"><a href="" class="btn_add">예매</a></td>
+					</tr>
+					<tr>
+						<th scope="row">11:00</th>
+						<td>동양고속</td>
+						<td>일반</td>
+						<td></td>
+						<td>15석</td>
+						<td class="btn_small"><a href="" class="btn_add">예매</a></td>
+					</tr>
+				</tbody>
+
+			</table>
+		</div>
+		<h3>basic_table</h3>
+		<table class="basic_table">
+			<caption>
+				청을전통문화원 체험안내
+			</caption>
+			<thead>
+				<tr>
+					<th scope="col">일정</th>
+					<th scope="col">소요시간</th>
+					<th scope="col">단위프로그램명</th>
+					<th scope="col">내용</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>09:00 ~ 09:20</td>
+					<td>20분</td>
+					<td>오리엔테이션 및 안전교육</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td>09:20 ~ 10:10</td>
+					<td>50분</td>
+					<td>어린이 예절교육1</td>
+					<td>예절이란 무엇인가?(이론)</td>
+				</tr>
+				<tr>
+					<td>10:10 ~ 11:00</td>
+					<td>50분</td>
+					<td>어린이 예절교육2</td>
+					<td>행동예절(인사예절, 절 배우기)</td>
+				</tr>
+				<tr>
+					<td>11:00 ~ 11:50</td>
+					<td>50분</td>
+					<td>어린이 예절교육3</td>
+					<td>복장예절
+						(옷을 입는 목적, 한복입어보기)</td>
+				</tr>
+				<tr>
+					<td>11:50 ~ 12:00</td>
+					<td>10분</td>
+					<td>평가 및 마무리</td>
+					<td>설문조사 및 소감발표</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	
+	<div id="tCon3">
+		<div class="tab">
+			<ul>
+				<li class="on"><a href="">전체</a></li>
+				<li><a href="">산</a></li>
+				<li><a href="">전시관  </a></li>
+				<li><a href="">공원 </a></li>
+				<li><a href="">산</a></li>
+			</ul>
+		</div>
+		<div class="tab2">
+			<ul>
+				<li class="on"><a href="">전체</a></li>
+				<li><a href="">산</a></li>
+				<li><a href="">전시관  </a></li>
+				<li><a href="">공원 </a></li>
+				<li><a href="">산</a></li>
+			</ul>
+		</div>
+
+		<div class="tab3">
+			<ul>
+				<li class="on"><a href="">전체</a></li>
+				<li><a href="">산</a></li>
+				<li><a href="">전시관  </a></li>
+				<li><a href="">공원 </a></li>
+				<li><a href="">산</a></li>
+			</ul>
+		</div>
+
+	</div>
+	
+	<div id="tCon4">
+		<div class="infobox">infobox <br><p class="info">info</p></div>
+		<div class="video_box">
+			<div class="v_wrap">
+				<video controls>
+					<source src="/images/main/video_2019.mp4" type="video/mp4">
+				</video>
+				<div class="v_script" tabindex="0">
+					<strong class="title">동영상 대본</strong>
+					<p>세종 어제 훈민정음 우리나라의 말이 중국과 달라 문자(한자)와 서로 통하지 아니하여 이런 까닭으로 어리석은 백성이 말하고자 할 바가 있어도 마침내 제 뜻을 능히 펴지 못하는 사람(경우)이 많으니라 내 이를 위하여 가엾게 여겨 새로 스물여덟 자를 만드노니 사람마다 하여금 쉬이 익혀 날로 씀에 편안케 하고자 할 따름이니라.</p>
+					<p>세종 어제 훈민정음 우리나라의 말이 중국과 달라 문자(한자)와 서로 통하지 아니하여 이런 까닭으로 어리석은 백성이 말하고자 할 바가 있어도 마침내 제 뜻을 능히 펴지 못하는 사람(경우)이 많으니라 내 이를 위하여 가엾게 여겨 새로 스물여덟 자를 만드노니 사람마다 하여금 쉬이 익혀 날로 씀에 편안케 하고자 할 따름이니라.</p>
+					<p>세종 어제 훈민정음 우리나라의 말이 중국과 달라 문자(한자)와 서로 통하지 아니하여 이런 까닭으로 어리석은 백성이 말하고자 할 바가 있어도 마침내 제 뜻을 능히 펴지 못하는 사람(경우)이 많으니라 내 이를 위하여 가엾게 여겨 새로 스물여덟 자를 만드노니 사람마다 하여금 쉬이 익혀 날로 씀에 편안케 하고자 할 따름이니라.</p>
+					<p>세종 어제 훈민정음 우리나라의 말이 중국과 달라 문자(한자)와 서로 통하지 아니하여 이런 까닭으로 어리석은 백성이 말하고자 할 바가 있어도 마침내 제 뜻을 능히 펴지 못하는 사람(경우)이 많으니라 내 이를 위하여 가엾게 여겨 새로 스물여덟 자를 만드노니 사람마다 하여금 쉬이 익혀 날로 씀에 편안케 하고자 할 따름이니라.</p>
+					<p>세종 어제 훈민정음 우리나라의 말이 중국과 달라 문자(한자)와 서로 통하지 아니하여 이런 까닭으로 어리석은 백성이 말하고자 할 바가 있어도 마침내 제 뜻을 능히 펴지 못하는 사람(경우)이 많으니라 내 이를 위하여 가엾게 여겨 새로 스물여덟 자를 만드노니 사람마다 하여금 쉬이 익혀 날로 씀에 편안케 하고자 할 따름이니라.</p>
+					<p>세종 어제 훈민정음 우리나라의 말이 중국과 달라 문자(한자)와 서로 통하지 아니하여 이런 까닭으로 어리석은 백성이 말하고자 할 바가 있어도 마침내 제 뜻을 능히 펴지 못하는 사람(경우)이 많으니라 내 이를 위하여 가엾게 여겨 새로 스물여덟 자를 만드노니 사람마다 하여금 쉬이 익혀 날로 씀에 편안케 하고자 할 따름이니라.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="tCon5">
+		<h3>address_dl</h3>
+		<dl class="address_dl">
+			<dt>주소</dt>
+			<dd>전주시 덕진구 구렛들1길 46</dd>
+			<dt>연락처</dt>
+			<dd>063-211-0288</dd>
+			<dt>이용시간</dt>
+			<dd>매일 10시~18시(17:30 입장마감)
+				<ul>
+					<li>카페써니 : 매일 10:00 ~ 19:00</li>
+					<li>써니부엌 : 매일 11:30 ~ 14:30</li>
+				</ul>
+			</dd>
+			<dt>휴무</dt>
+			<dd>매주 월요일, 명절 당일 휴관</dd>
+			<dt>홈페이지</dt>
+			<dd class="btn_arrow ba_t1"><a href="http://www.palbokart.kr" rel="noreferrer noopener" target="_blank" title="새창열림" class="next"><em><i><b></b></i></em>바로가기</a></dd>
+			<dt>페이스북</dt>
+			<dd class="btn_arrow ba_t1"><a href="https://www.facebook.com/palbokart" rel="noreferrer noopener" target="_blank" title="새창열림" class="next"><em><i><b></b></i></em>바로가기</a></dd>
+			<dt>인스타그램</dt>
+			<dd>@__palbok__art</dd>
+		</dl>
+		<br>
+		<h3>address_ul</h3>
+		<ul class="address_ul">
+			<li><i class="fa fa-map-marker"></i>전주시 덕진구 무삼지2길 7 (인후동1가 907-1)</li>
+			<li><i class="fa fa-mobile"></i><a href="tel:063-281-6535">063-281-6535</a></li>
+			<li><i class="fa fa-clock-o"></i><a href="tel:063-281-6535">063-281-6535</a></li>
+			<li><i class="fa fa-map-marker"></i> 전라북도 전주시 완산구 전라감영4길 16-14 <span class="btn_arrow ba_t1"><a href="#" rel="noreferrer noopener" target="_blank" title="새창열림" class="next "><em><i><b></b></i></em>위치보기</a></span></li>
+		</ul>
+	</div>
+	
+	<div id="tCon6">
+		<div class="btnbox"><a href="" rel="noreferrer noopener" target="_blank" title="새창열림" class="a_more type2"><b>자세히보 기자세 히보기 자세히 보기자세 히보기</b><em class="arrow"><i></i></em></a></div>
+		
+		
+		<p style="text-align: center"><a href="" class="btn_more">btn_more<span><em></em></span></a></p>
+		<p style="text-align: center"><a href="" class="btn_more ty2">btn_more<span><em></em></span></a></p>
+
+		<div class="btn_small" style="text-align: center">
+			<a href="" class="btn_add">btn_small btn_add</a>
+			<a href="" class="btn_mod">btn_small btn_mod</a>
+			<a href="" class="btn_del">btn_small btn_del</a>
+		</div>
+		<p class="bbs_btn"><a class="btn_write" href=""><span>btn_write</span></a><a class="btn_modify" href=""><span>btn_modify</span></a><a class="btn_delete" href=""><span>btn_delete</span></a></p>
+
+		<p class="bbs_btn2"><a class="btn_write" href=""><span>btn_write</span></a><a class="btn_modify" href=""><span>btn_modify</span></a><a class="btn_delete" href=""><span>btn_delete</span></a></p>
+
+		<p class="btn_arrow"><a href="" rel="noreferrer noopener" target="_blank" title="새창열림" class="prev"><em><i><b></b></i></em>이전버튼 prev</a></p>
+		<p class="btn_arrow ba_t1"><a href="" rel="noreferrer noopener" target="_blank" title="새창열림" class="next"><em><i><b></b></i></em>next ba_t1 다음버튼</a></p>
+		<p class="btn_arrow ba_t1"><a href="" rel="noreferrer noopener" target="_blank" title="새창열림" class="prev co1"><em><i><b></b></i></em>co1</a></p>
+		<p class="btn2"><a href=""><span>btn2</span></a><a href=""><span>btn2</span></a></p>
+		<a href="" class="btn_down"><span>btn_down</span><i></i></a>
+		<a href="" rel="noreferrer noopener" target="_blank" title="새창열림" class="btn_link">btn_link</a>
+		<a href="" rel="noreferrer noopener" target="_blank" title="새창열림" class="btn_link bl_t1">btn_link</a>
+		<p style="background:#ccc;text-align:center">
+			<a href="" rel="noreferrer noopener" target="_blank" title="새창열림" class="a_more"><b>자세히보기</b><em class="arrow"><i></i></em></a>
+			<a href="" rel="noreferrer noopener" target="_blank" title="새창열림" class="a_more type2"><b>자세히보기</b><em class="arrow"><i></i></em></a>
+			<a href="" rel="noreferrer noopener" target="_blank" title="새창열림" class="a_more type3"><b>자세히보기</b><em class="arrow"><i></i></em></a>
+			<a href="" rel="noreferrer noopener" target="_blank" title="새창열림" class="a_more type4"><b>자세히보기</b><em class="arrow"><i></i></em></a>
+			<a href="" rel="noreferrer noopener" target="_blank" title="새창열림" class="a_more type5"><b>자세히보기</b><em class="arrow"><i></i></em></a>
+		</p>
+		<h4>btn_circle</h4>
+		<div style="height: 300px;margin:10px 0; background: #ccc;position:relative" class="btn_circle bc_t1"><button class="prev">이전</button><button class="next">다음</button></div>
+		<div style="height: 200px;margin:10px 0;background: #ccc;position:relative" class="btn_circle bc_t2"><button class="prev">이전</button><button class="next">다음</button></div>
+		<div style="height: 200px;margin:10px 0;background: #ccc;position:relative" class="btn_circle sm bc_t2"><button class="prev">이전</button><button class="next">다음</button></div>
+		<div style="height: 300px;margin:10px 0; background: #ccc;position:relative" class="btn_circle bc_t1"><button class="prev">이전</button><button class="next">다음</button><button class="close">닫기</button></div>
+	</div>
+	
+	<div id="tCon7">
+		<h3><strong class="cblue">cblue</strong> <strong class="cred">cred</strong> <strong class="cgreen">cgreen</strong> <strong class="cgold">cgold</strong> <strong class="ctit">ctit</strong> </h3>
+		<h3 class="titleH3">전주여행의 첫 시작걸음!<br> 전주역으로 이어지는 <strong>첫마중길</strong> 이렇게 조성되었습니다! </h3>
+		
+		<p class="txt">text : txt, .mt : margin-top:0</p>
+		<div class="txt">
+			<p>txt txt</p>
+		</div>
+		<p class="txt_link"><a href="링크" rel="noreferrer noopener" target="_blank" title="새창열림">링크 바로가기</a></p>
+		<p class="txt_link tl_white" style="background:#565656"><a href="링크" rel="noreferrer noopener" target="_blank" title="새창열림">링크 바로가기</a></p>
+	</div>
+	
+	<div id="tCon8">
+		<div class="basic_box">
+			<p><span>제목</span>덕진공원의 정문이다. 전주 청년회의소에서 제23차 전국회원대회를 기념하여 세운 것으로 1974년 10월 5일 전주시에 기증하였다. <br>연지문 현판은 서예가 강암 송성용 선생이 썼다.</p>
+		</div>
+		<div style="background:#ccc;padding:1rem;">
+			<div class="basic_box co1">
+				<p><span>제목</span>선이랑 제목이 흰색. 덕진공원의 정문이다. 전주 청년회의소에서 제23차 전국회원대회를 기념하여 세운 것으로 1974년 10월 5일 전주시에 기증하였다. <br>연지문 현판은 서예가 강암 송성용 선생이 썼다.</p>
+			</div>
+		</div>
+		<div class="basic_box2 col2">
+			<div>
+				<h4 class="tit"><em>혜택 1.</em> 전주 한옥마을 한복체험 반값</h4>
+				<p>기린한복 :<br>
+					교동한복 : 전주시 완산구 태조로 21, 2층 (063-232-7974)<br>
+					어디야한복 : 전주시 완산구 팔달로 132, 2층<br>
+					비빔한복 : 전주시 완산구 은행로 61, 2층 (063-286-2500)</p>
+			</div>
+			<div>
+				<h4 class="tit"><em>혜택 2.</em> 전주 한옥레일바이크 이용료 할인</h4>
+				<p>주소 : 전라북도 전주시 덕진구 동부대로 420<br>
+					문의 063-273-7788<br>
+					레일바이크 한 대당 5,000원 할인</p>
+			</div>
+		</div>
+		<div class="basic_box3 col2">
+			<div>
+				<h4 class="tit"><em>혜택 1.</em> 전주 한옥마을 한복체험 반값</h4>
+				<p>기린한복 :<br>
+					교동한복 : 전주시 완산구 태조로 21, 2층 (063-232-7974)<br>
+					어디야한복 : 전주시 완산구 팔달로 132, 2층<br>
+					비빔한복 : 전주시 완산구 은행로 61, 2층 (063-286-2500)</p>
+			</div>
+			<div>
+				<h4 class="tit"><em>혜택 2.</em> 전주 한옥레일바이크 이용료 할인</h4>
+				<p>주소 : 전라북도 전주시 덕진구 동부대로 420<br>
+					문의 063-273-7788<br>
+					레일바이크 한 대당 5,000원 할인</p>
+			</div>
+		</div>
+		<div class="basic_box3">
+			<div>
+				<h4 class="tit"><em>혜택 1.</em> 전주 한옥마을 한복체험 반값</h4>
+				<p>기린한복 :
+					교동한복 : 전주시 완산구 태조로 21, 2층 (063-232-7974)
+					어디야한복 : 전주시 완산구 팔달로 132, 2층
+					비빔한복 : 전주시 완산구 은행로 61, 2층 (063-286-2500)</p>
+			</div>
+		</div>
+		<div class="notice_box">
+			<p class="txt">신청하신 관광지도는 매주 월요일, 목요일 발송하고 있습니다. 수령하시고자 하는 날로부터 일주일 이전에 신청하여 주시면 여유있게 받아보실 수 있습니다. 또한 기다리실 필요없이 관광지도를 다운로드하여 출력하실 수 있습니다.<br><br>관광지도 발송담당자: 경기전관광안내소 (063-281-2891)</p>
+			<br>
+			<span class=""><a href="https://get.adobe.com/kr/reader/" target="_blank" title="관광지도 다운받기 바로가기" class="btn_down"><span>PDF 설치파일 다운로드</span><i></i></a></span>
+		</div>
+		<div class="notice_box">원하시는 공연예약 방법을 설정해 주세요.</div>
+	</div>
+	
+	<div id="tCon9">
+		<div class="gridCard_wrap">
+			<h3>test</h3>
+			<div class="item">
+				<figure class="item-img aos-animate" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000">
+					<img src="images/contents/hotspot_welcome1.jpg" alt="">
+					<figcaption></figcaption>
+				</figure>
+				<div class="item-txt aos-animate" data-aos="fade-up">
+					<h4>빛의거리 첫마중길</h4>
+					<p class="txt">첫 마중길 빛의 거리를 관광객을 맞이하는 첫 마중길의 이미지와 부합하면서 주변 시설물과 수목 등과 조화되도록 조성되어, 전주역 앞과 명주골사거리의 두 개의 권역으로 구분하고 LED와 미디어파사드, 레이저 등을 활용해 권역별 특성에 맞는 야간경관을 제공한다.</p>
+				</div>
+			</div>
+			<div class="item">
+				<figure class="item-img aos-animate" data-aos="fade-up">
+					<img src="images/contents/hotspot_welcome2.jpg" alt="">
+					<figcaption></figcaption>
+				</figure>
+				<div class="item-txt aos-animate" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000">
+					<h4>첫마중길 여행자 도서관</h4>
+					<p class="txt">2021년 4월 15일에 개관한 첫마중길 여행자도서관은 '책이 삶이 되는 책 여행 도시' 전주로의 기반을 구축하고 시민들에게 문화 향유 기회를 제공하려는 취지로 조성되었다. 첫마중길 여행자도서관은 여행자를 위한 편안한 휴식공간임과 동시에 특색있고 가치있는 도서들을 담고 있는 문화공간이다.</p>
+					<dl class="address_dl" style="z-index:50">
+						<dt>이용요금</dt>
+						<dd>무료</dd>
+						<dt>이용시간</dt>
+						<dd>화요일~일요일 09:00~18:00</dd>
+						<dt>공휴일</dt>
+						<dd>매주 월요일, 법정공휴일</dd>
+						<dt>주차시설</dt>
+						<dd>도서관 맞은편 공영주차장, 주차요금 무료</dd>
+						<dt>최대수용인원</dt>
+						<dd>최대 30명</dd>
+						<dt>문의 및 안내</dt>
+						<dd><a href="tel:063-714-3524">063-714-3524</a><br>애완동물 출입 불가능</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+		<div class="grid_wrap">				
+			<div class="item">
+				<div class="item-img aos-animate" data-aos="fade-up"><img src="./images/contents/new04/market_chungnyun_01.jpg" alt=""></div>
+				<div class="item-txt aos-animate" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000">
+					<h4># 청년몰_맛집</h4>
+					<p class="txt">볶음밥, 볶음면, 후난치킨, 돈카츠, 카츠동, 계절카레, 규동, 오차즈케, 타코, 퀘사디아, 부리또, 치즈나쵸, 미국식 팬케이크, 프렌치 토스트, 파니니, 가든 오믈렛, 프리미엄 김밥, 분식, 수제버거, 피시엔칩스</p>
+				</div>
+			</div>
+			<div class="item">
+				<div class="item-img aos-animate" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000"><img src="./images/contents/new04/market_chungnyun_01.jpg" alt=""></div>
+				<div class="item-txt aos-animate" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000">
+					<h4># 청년몰_카페&amp;수제디저트</h4>
+					<p class="txt">스페셜 커피, 콜드브루 커피, 제철과일음료, 퓨전 전통차, 한방차, 수제과일청, 건강빙수, 완주 농가에서 만든 100% 토마토즙, 홍차, 고퀄리티 원두커피, 양갱, 잼, 청, 진안 돌담 목장에서 만든 요거트, 쿠키, 구움과자, 시즌 초콜릿, 무스케이크</p>
+				</div>
+			</div>
+			<div class="item">
+				<div class="item-img aos-animate" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000"><img src="./images/contents/new04/market_chungnyun_01.jpg" alt=""></div>
+				<div class="item-txt aos-animate" data-aos="fade-up">
+					<h4># 청년몰_어른의 세계</h4>
+					<p class="txt">손님의 취향대로 제조되는 칵테일, 술아이스크림, 수제 청주, 맥주</p>
+				</div>
+			</div>
+		</div>
+	</div>	
+	
+	<div id="tCon10">
+		<h2>basic_ul, ty1, ty2</h2>
+		<ul class="basic_ul">
+			<li><strong>골동지반(骨董之飯) </strong>조선 23대 임금인 순조(純祖) 때 홍석모가 저술한 동국세시기(東國歲時記, 1849년)의 동지달편에 "骨董之飯"이란 말이 나온다.</li>
+			<li><strong>부븸밥</strong>양반가 음식책의 대표적인 것으로 작자미상 필사본인 시의전서(是議全書, 1800년대 말엽)에는 한자로 골동반[骨董飯, 汨董飯]이라 쓰고, 한글로 ‘부븸밥’이라 쓰여있다.</li>
+			<li><strong>부빔밥</strong>1913년 초판 발행된 이래 1939년 증보 9판까지 나온 방신영씨가 저술한 조선요리제법에서는 부빔밥이라 씌여 있다.</li>
+			<li><strong>비빔밥</strong>현재는 비빔밥이라는 명칭으로 쓰인다.
+				<ul class="basic_ul ty1">
+					<li>일반인 밴드(40만원)</li>
+					<li> 청소년밴드(30만원)
+						<ul class="basic_ul ty2">
+							<li>일반인 밴드(40만원)</li>
+							<li> 청소년밴드(30만원)</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+		
+		<h2>basic_dl</h2>
+		<dl class="basic_dl">
+			<dt>골동지반(骨董之飯) </dt>
+			<dd>조선 23대 임금인 순조(純祖) 때 홍석모가 저술한 동국세시기(東國歲時記, 1849년)의 동지달편에 "骨董之飯"이란 말이 나온다.</dd>
+			<dt>부븸밥</dt>
+			<dd>양반가 음식책의 대표적인 것으로 작자미상 필사본인 시의전서(是議全書, 1800년대 말엽)에는 한자로 골동반[骨董飯, 汨董飯]이라 쓰고, 한글로 ‘부븸밥’이라 쓰여있다.</dd>
+			<dt>부빔밥</dt>
+			<dd>1913년 초판 발행된 이래 1939년 증보 9판까지 나온 방신영씨가 저술한 조선요리제법에서는 부빔밥이라 씌여 있다.</dd>
+			<dt>비빔밥</dt>
+			<dd>현재는 비빔밥이라는 명칭으로 쓰인다.</dd>
+		</dl>
+	</div>
+		
+	<div id="tCon11">
+		<h2>imbBox - 크게보기</h2>
+		<figure class="imgBox">
+			<img src="images/contents/new04/cycleCourse1-2.jpg" alt="">
+			<figcaption><a href="images/contents/new04/cycleCourse1-2.jpg" rel="noreferrer noopener" target="_blank" title="새창열림" class="a_more type2"><b>크게 보기</b><em class="arrow"><i></i></em></a></figcaption>
+		</figure>
+		
+		<h2>imgBoxOver - 스크롤</h2>
+		<p class="over_p mo"><em class="over_p">↔</em>좌우로 이동할 수 있습니다.</p>
+		<figure class="imgBoxOver">
+			<p><img src="images/contents/new04/cycleCourse1-2.jpg" alt=""></p>
+			<figcaption></figcaption>
+		</figure>
+	</div>
+	
+	<div id="tCon12">
+		<p class="step_bullet">덕진공원 <em>다음</em> 동물원</p>
+		<ul class="courseSign">
+			<li><i class="fa fa-map-marker"></i><strong>추천대교</strong></li>
+			<li><i class="fa fa-map-marker"></i><strong>신풍교</strong></li>
+			<li><i class="fa fa-map-marker"></i><strong>전주천교</strong></li>
+			<li><i class="fa fa-map-marker"></i><strong>미산교</strong></li>
+			<li><i class="fa fa-map-marker"></i><strong>만경강</strong></li>
+		</ul>
+		<ul class="courseIndicator">
+			<li class="on"><button><span class="fa fa-map-marker"><img src="../images/contents/new04/hanokAlley1-1.jpg" alt=""></span><h4><em>내 마음에 복이 가득 채워져요</em>600년 은행나무</h4></button></li>
+			<li><button><span class="fa fa-map-marker"><img src="../images/contents/new04/hanokAlley1-2.jpg" alt=""></span><h4><em>예쁜 벽화와 선비길 이야기 </em>선비 골목길</h4></button></li>
+			<li><button><span class="fa fa-map-marker"><img src="../images/contents/new04/hanokAlley1-3.jpg" alt=""></span><h4><em>조선황실의 기품을 느껴보세요</em>승광재</h4></button></li>
+			<li><button><span class="fa fa-map-marker"><img src="../images/contents/new04/hanokAlley1-4.jpg" alt=""></span><h4><em>2020년 나의 소원 이루어진다!</em>오목대 당산나무</h4></button></li>
+			<li><button><span class="fa fa-map-marker"><img src="../images/contents/new04/hanokAlley1-5.jpg" alt=""></span><h4><em>무병장수와 승승장구 기운 받기</em>한옥마당 우물이야기</h4></button></li>
+			<li><button><span class="fa fa-map-marker"><img src="../images/contents/new04/hanokAlley1-6.jpg" alt=""></span><h4><em>꿈은 이루어진다. 도전! </em>전주향교 은행나무</h4></button></li>
+			<li><button><span class="fa fa-map-marker"><img src="../images/contents/new04/hanokAlley1-7.jpg" alt=""></span><h4><em>전주천의 맑은 정기 담아가기</em>오목교</h4></button></li>
+		</ul>
+	</div>
+	
+	<div id="tCon13">
+		<section class="map_modal" style="display: none">
+			<div>
+				<figure style="display:block">
+					<img src="images/01_kor/contents/map_img_YeonjiGate.jpg" alt="">
+					<figcaption>
+						<h4>연지문 <em>Yeonji Gate 莲池门 蓮池門</em></h4>
+						<p class="txt">덕진공원의 정문이다. 전주 청년회의소에서 제23차 전국회원대회를 기념하여 세운 것으로 1974년 10월 5일 전주시에 기증하였다. <br>연지문 현판은 서예가 강암 송성용 선생이 썼다.</p>
+					</figcaption>
+				</figure>
+			</div>
+		</section>
+
+		<h5>MODAL-SLIDE</h5>
+		<p class="txt">코드로 봐야함</p>
+		<section class="map_modal modal_slide" style="display:none">
+			<div>
+				<figure style="display:block">
+					<img src="images/01_kor/contents/map_img_YeonjiGate.jpg" alt="">
+					<figcaption>
+						<h4>연지문 <em>Yeonji Gate 莲池门 蓮池門</em></h4>
+						<p class="txt">덕진공원의 정문이다. 전주 청년회의소에서 제23차 전국회원대회를 기념하여 세운 것으로 1974년 10월 5일 전주시에 기증하였다. <br>연지문 현판은 서예가 강암 송성용 선생이 썼다.</p>
+					</figcaption>
+				</figure>
+				<figure style="display:none">
+					<img src="../images/01_kor/contents/map_img_YeonhwagyoBridge.jpg" alt="">
+					<figcaption>
+						<h4>연지문 <em>Yeonji Gate 莲池门 蓮池門</em></h4>
+						<p class="txt">덕진공원의 정문이다. 전주 청년회의소에서 제23차 전국회원대회를 기념하여 세운 것으로 1974년 10월 5일 전주시에 기증하였다. <br>연지문 현판은 서예가 강암 송성용 선생이 썼다.</p>
+					</figcaption>
+				</figure>
+				<p class="btn_circle bc_t1"><button class="prev">이전</button><button class="next">다음</button><button class="close">닫기</button></p>
+			</div>
+		</section>
+
+		<div class="modal_wrap cms_modal" style="display:none;">
+			<div>
+				<h3>예약정보 및 결제방법 선택</h3>
+				<form>
+					<fieldset>
+						<legend>예약설정</legend>
+						<div class="notice_box">원하시는 공연예약 방법을 설정해 주세요.</div>
+						<div class="tab">
+							<ul>
+								<li class="on"><a href="">온라인예약설정</a></li>
+								<li><a href="">예약설정없음(무료)</a></li>
+								<li><a href="">외부예매사이트링크</a></li>
+							</ul>
+						</div>
+						<dl class="md_form">
+							<dt><label for="startdate2">예약기간</label></dt>
+							<dd class="calendar cms_calendar">
+								<span><input id="startdate2" type="text" value="" title="검색 시작 날짜 입력"><i></i></span> <input type="time" class="input_time"> ~ <span><input id="enddate2" type="text" value="" title="검색 끝 날짜 입력"><i></i></span><input type="time" class="input_time">
+							</dd>
+							<dt><label for="datapeople">예약정원수</label></dt>
+							<dd><input id="datapeople" type="text"> 명</dd>
+							<dt>회차 등록<p class="add_area"><a href="" class="btn_more">항목 추가<span><em></em></span></a></p></dt>
+							<dd>
+								<table>
+									<caption>
+										<strong>회차 등록</strong>으로 회차별 시간을 입력
+									</caption>
+									<thead>
+										<tr>
+											<th scope="col">회차</th>
+											<th scope="col">시간</th>
+											<th scope="col"></th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>1</td>
+											<td><input type="text"></td>
+											<td class="btn_small">
+												<a href="" class="btn_mod">수정</a>
+												<a href="" class="btn_del">삭제</a>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</dd>
+							<dt><label for="startdate3">예약취소</label></dt>
+							<dd class="calendar cms_calendar">
+								<span><input id="startdate3" type="text" value="" title="검색 시작 날짜 입력"><i></i></span> ~ <span><input id="enddate3" type="text" value="" title="검색 끝 날짜 입력"><i></i></span>
+								<p class="i_txt">신용카드는 취소시 전액 자동환불</p>
+							</dd>
+							<dt><label for="end_dt">전화번호</label></dt>
+							<dd><input type="text" class="input_tel"> - <input type="text" class="input_tel"> - <input type="text" class="input_tel">
+								<label for="datatel"><input type="radio" id="datatel"> 등록된 문의전화와 동일</label>
+							</dd>
+							<dt>결제금액<p class="add_area"><a href="" class="btn_more">항목 추가<span><em></em></span></a></p></dt>
+							<dd class="table_box">
+								<table>
+									<caption>
+										<strong>결제금액</strong>으로 구분별 가격안내를 입력
+									</caption>
+									<thead>
+										<tr>
+											<th scope="col">구분</th>
+											<th scope="col">가격</th>
+											<th scope="col">인원수</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><input type="text"></td>
+											<td><input type="text"></td>
+											<td class="btn_small">
+												<a href="" class="btn_mod">수정</a>
+												<a href="" class="btn_del">삭제</a>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</dd>
+							<dt> 결제수단</dt> 
+							<dd class="pay">
+								<a href="" title=""><i class="fa fa-address-card-o"></i>무통장입금</a><a href="" title=""><i class="fa fa-credit-card"></i>신용카드</a>
+								<ul style="display:block">
+									<li><label for="datapay"><input type="radio" id="datapay"> 대표 사업자 계좌와 동일</label></li>
+									<li><label for="">은행 <input type="text"></label> <label for="">계좌주 <input type="text"></label> <label for="" class="pi_100">계좌번호 <input type="text"></label> </li>
+								</ul>
+							</dd>
+						</dl>
+					</fieldset>
+				</form>
+				<p class="btn_arrow ba_t1"><a href="" rel="noreferrer noopener" target="_blank" title="새창열림" class="prev"><em><i><b></b></i></em>취소</a><a href="" rel="noreferrer noopener" target="_blank" title="새창열림" class="next co1"><em><i><b></b></i></em>완료</a></p>
+			</div>
+		</div>
+	</div>
+	
+	<div id="tCon14">
+		<div class="contents_wrap aos-init aos-animate" data-aos="fade-up" style="height:300px;background:powderblue;">.contents_wrap </div>
+		<br>
+		<div class="wrap" style="height:300px;background:powderblue;"><p>wrap</p></div>
+		<br>
+		<div class="fullView" style="height:300px;background:powderblue;"><p>fullView : full screen</p></div>
+		<br>
+		<div class="gapFirst" style="height:300px;background:powderblue;"><p>gapFirst : margin-top</p></div>
+	</div>
+</div>
+
+<script>
+	function hideAllDetail(num) {
+		for (var i = 1; i < 20; i++) {
+			if (i == num) {
+				document.getElementById("tCon" + i).style.display = "block";
+				document.getElementById("tMenu" + i).className = "on";
+			} else {
+				document.getElementById("tCon" + i).style.display = "none";
+				document.getElementById("tMenu" + i).className = "";
+			}
+		}
+	}
+	hideAllDetail(1);
+</script>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="mapdown_wrap hide">
+	<style>
+.map_slide_hor{min-height:502px;position:relative;overflow:hidden}
+.map_slide_hor .wrap{height:100%;}
+.map_slide_hor .item_wrap{margin-left:30px;position:absolute;top:0}
+.map_slide_hor .item{display:inline-block;width:260px;height:100%;padding:2rem 1rem;margin-right:1rem;text-align:center;vertical-align:top}
+.map_slide_hor .item h3{padding-bottom:1rem;font-weight:600;color:#333;}
+.map_slide_hor .item em{display:inline-block;text-transform:uppercase;color:#565656;}
+.map_slide_hor .item p{padding-top:1rem; line-height:1.6}
+.map_slide_hor figure{width:260px;margin-right:1rem;text-align:center;display:inline-block;vertical-align:top;}
+.map_slide_hor img{width:260px;height:260px;border-radius:50%;border:1px solid #dfdfdf;}
+.map_slide_hor figcaption{margin-top:1rem;padding:1rem;}
+.map_slide_hor figcaption h4{margin-bottom:1rem;text-transform:uppercase;font-size:1.375rem}
+.map_slide_hor figcaption p{margin-top:1rem;}
+.map_slide_hor a{margin:4px;padding:10px;background:#7401b8;color:#fff;display:inline-block;}
+.map_slide_hor a::before{width:14px;height:14px;margin-right:10px;background:url(/images/common/icon_common.png);display:inline-block;content:""}
+.map_slide_hor a:hover{background:#430a68}
+.map_slide_hor .mapview::before{background-size:400px;background-position:-18px -97px}
+.map_slide_hor .mapdown::before{background-position:-35px -344px;transform:rotate(90deg);}
+@media all and (min-width:768px){
+.mapdown_wrap .txt{padding-right:250px}
+.mapdown_wrap .right{margin-top:0;}
+.mapdown_wrap .right a{position:absolute;top:1rem;right:1.25rem}
+}
+@media all and (min-width:1200px){
+.map_slide_hor{margin-top:7%}
+.map_slide_hor figure{height:262px;position:relative;}
+.map_slide_hor figcaption{padding-top:24%;border:1px solid #dfdfdf; opacity:0;background:#f5f5f5;transition: .3s ease-in-out;position:absolute;top:0;left:0;right:0;bottom:0;margin:0;box-sizing:border-box}
+.map_slide_hor figure:nth-of-type(2n){margin-top:15rem;vertical-align:bottom}
+.map_slide_hor figure:hover figcaption{opacity:1}
+.map_slide_hor .mtxt{padding-top:13%}
+}
+	</style>
+	<div class="map_slide_hor">
+		<div class="wrap aos-init aos-animate" data-aos="fade-in">
+			<div class="item_wrap" style="width:5030px;left:-0px;"><!--left : -280px * 이미지 갯수-->
+				<div class="item">
+					<h3>전주 여행지도</h3>
+					<em>Jeonju travel map /</em><em>全州旅行マップ /</em><em>全州旅游地图 /</em><em>Mapa de viaje de Jeonju</em>
+					<p>전주의 명소와 축제, 관광코스와 편의시설을 쉽게 찾아볼 수 있도록 모아놓은 종합 가이드북 입니다.</p>
+				</div>
+				<figure class="aos-init aos-animate" data-aos="zoom-in-left">
+					<img src="/images/contents/map_tour_kor.jpg" alt="">
+					<figcaption>
+						<h4>국문</h4>
+						<p><a href="/images/file/mapTour_kor.pdf" target="_blank" title="새창 열림" class="mapview">View</a><a href="/images/file/mapTour_ko.zip" target="_blank" title="국문 Download" class="mapdown">Download</a></p>
+					</figcaption>
+				</figure>
+				<figure class="aos-init aos-animate" data-aos="zoom-in-left">
+					<img src="/images/contents/map_tour_eng.jpg" alt="">
+					<figcaption>
+						<h4>Jeonju travel map</h4>
+						<p><a href="/images/file/mapTour_eng.pdf" target="_blank" title="새창 열림" class="mapview">View</a><a href="/images/file/mapTour_en.zip" target="_blank" title="Jeonju travel map Download" class="mapdown">Download</a></p>
+					</figcaption>
+				</figure>
+				<figure class="aos-init aos-animate" data-aos="zoom-in-left">
+					<img src="/images/contents/map_tour_jap.jpg" alt="">
+					<figcaption>
+						<h4>全州旅行マップ</h4>
+						<p><a href="/images/file/mapTour_jap.pdf" target="_blank" title="새창 열림" class="mapview">View</a><a href="/images/file/mapTour_ja.zip" target="_blank" title="全州旅行マップ Download" class="mapdown">Download</a></p>
+					</figcaption>
+				</figure>
+				<figure class="aos-init aos-animate" data-aos="zoom-in-left">
+					<img src="/images/contents/map_tour_chi.jpg" alt="">
+					<figcaption>
+						<h4>全州旅游地图</h4>
+						<p><a href="/images/file/mapTour_chi.pdf" target="_blank" title="새창 열림" class="mapview">View</a><a href="/images/file/mapTour_ch.zip" target="_blank" title="全州旅游地图 Download" class="mapdown">Download</a></p>
+					</figcaption>
+				</figure>
+				<figure class="aos-init aos-animate" data-aos="zoom-in-left">
+					<img src="/images/contents/map_tour_spa.jpg" alt="">
+					<figcaption>
+						<h4>Mapa de viaje de Jeonju</h4>
+						<p><a href="/images/file/mapTour_spa.pdf" target="_blank" title="새창 열림" class="mapview">View</a><a href="/images/file/mapTour_sp.zip" target="_blank" title="Mapa de viaje de Jeonju Download" class="mapdown">Download</a></p>
+					</figcaption>
+				</figure>
+				
+				<div class="item">
+					<h3>전주 음식지도 </h3>
+					<em>Jeonju food map /</em><em>全州グルメマップ /</em><em>全州美食地图</em>
+					<p>전주를 대표하는 전주음식 명인,명가,명소 및 유네스코 음식창의업소와 막걸리 골목을 소개하는 종합가이드북 입니다.</p>
+				</div>				
+				<figure class="aos-init aos-animate" data-aos="zoom-in-left">
+					<img src="/images/contents/map_food_kor.jpg" alt="">
+					<figcaption>
+						<h4>전주 음식지도</h4>
+						<p><a href="/images/file/mapFood_kor.pdf" target="_blank" title="새창 열림" class="mapview">View</a><a href="/images/file/mapFood_ko.zip" target="_blank" title="전주 음식지도 Download" class="mapdown">Download</a></p>
+					</figcaption>
+				</figure>
+				<figure class="aos-init aos-animate" data-aos="zoom-in-left">
+					<img src="/images/contents/map_food_eng.jpg" alt="">
+					<figcaption>
+						<h4>Jeonju food map</h4>
+						<p><a href="/images/file/mapFood_eng.pdf" target="_blank" title="새창 열림" class="mapview">View</a><a href="/images/file/mapFood_en.zip" target="_blank" title="Jeonju food map Download" class="mapdown">Download</a></p>
+					</figcaption>
+				</figure>
+				<figure class="aos-init aos-animate" data-aos="zoom-in-left">
+					<img src="/images/contents/map_food_eng.jpg" alt="">
+					<figcaption>
+						<h4>全州グルメマップ</h4>
+						<p><a href="/images/file/mapFood_jap.pdf" target="_blank" title="새창 열림" class="mapview">View</a><a href="/images/file/mapFood_ja.zip" target="_blank" title="全州グルメマップ Download" class="mapdown">Download</a></p>
+					</figcaption>
+				</figure>
+				<figure class="aos-init aos-animate" data-aos="zoom-in-left">
+					<img src="/images/contents/map_food_eng.jpg" alt="">
+					<figcaption>
+						<h4>全州美食地图</h4>
+						<p><a href="/images/file/mapFood_chi.pdf" target="_blank" title="새창 열림" class="mapview">View</a><a href="/images/file/mapFood_ch.zip" target="_blank" title="全州美食地图 Download" class="mapdown">Download</a></p>
+					</figcaption>
+				</figure>
+				
+				<div class="item">
+					<h3>기타</h3>
+					<p>전주를 대표하는 한옥마을 명소 &amp; 체험, 전주부성, 객사길, 자전거길, 마실길, 도보여행을 소개하는 가이드북 입니다.</p>
+				</div>
+				<figure class="aos-init aos-animate" data-aos="zoom-in-left">
+					<img src="/images/contents/map_hanok.jpg" alt="">
+					<figcaption class="mtxt">
+						<h4>한옥마을 지도</h4>전통생활문화가 살아 숨쉬는 한국의 대표적 문화관광명소인 전주한옥마을의 지도입니다.
+						<p><a href="/images/file/mapHanok.jpg" target="_blank" title="새창 열림" class="mapview">View</a><a href="/images/file/mapHanok.j.jpg" target="_blank" title="한옥마을 지도 Download" class="mapdown">Download</a></p>
+					</figcaption>
+				</figure>
+				<figure class="aos-init aos-animate" data-aos="zoom-in-left">
+					<img src="/images/contents/map_ex.jpg" alt="">
+					<figcaption class="mtxt">
+						<h4>한옥마을 체험지도</h4>손으로 만드는 한옥마을 체험 지도입니다.
+						<p><a href="/images/file/mapExp.jpg" target="_blank" title="새창 열림" class="mapview">View</a><a href="/images/file/mapExp.jpg.jpg" target="_blank" title="한옥마을 체험지도 Download" class="mapdown">Download</a></p>
+					</figcaption>
+				</figure>
+				<figure class="aos-init aos-animate" data-aos="zoom-in-left">
+					<img src="/images/contents/map_castle.jpg" alt="">
+					<figcaption class="mtxt">
+						<h4>전주부성/객사길지도</h4>예술과 음식 등 문화가 살아숨쉬는 동문예술거리, 영화의거리와 최근 핫플레이스로 떠오르는 객사길 지도입니다.
+						<p><a href="/images/file/mapArt.jpg" target="_blank" title="새창 열림" class="mapview">View</a><a href="/images/file/mapArt.jpg.jpg" target="_blank" title="전주부성/객사길지도 Download" class="mapdown">Download</a></p>
+					</figcaption>
+				</figure>
+				<figure class="aos-init aos-animate" data-aos="zoom-in-left">
+					<img src="/images/contents/map_cycle.jpg" alt="">
+					<figcaption class="mtxt">
+						<h4>전주 자전거길 지도</h4>전주 자전거길 지도입니다.
+						<p><a href="/images/file/mapBikeway.pdf" target="_blank" title="새창 열림" class="mapview">View</a><a href="/images/file/mapBikeway.zip" target="_blank" title="전주 자전거길 지도 Download" class="mapdown">Download</a></p>
+					</figcaption>
+				</figure>
+				<figure class="aos-init aos-animate" data-aos="zoom-in-left">
+					<img src="/images/contents/map_masil.jpg" alt="">
+					<figcaption class="mtxt">
+						<h4>전주 마실길 지도</h4>이야기가 있는 전주마실길 지도입니다.
+						<p><a href="/images/file/mapMasilgil.pdf" target="_blank" title="새창 열림" class="mapview">View</a><a href="/images/file/mapMasilgi.zip" target="_blank" title="전주 마실길 지도 Download" class="mapdown">Download</a></p>
+					</figcaption>
+				</figure>
+				<figure class="aos-init aos-animate" data-aos="zoom-in-left">
+					<img src="/images/contents/map_walk.jpg" alt="">
+					<figcaption class="mtxt">
+						<h4>전주 도보여행 지도</h4>사드락사드락 걸어서 전주도보여행 지도입니다.
+						<p><a href="/images/file/mapWalking.pdf" target="_blank" title="새창 열림" class="mapview">View</a><a href="/images/file/mapWalking.zip" target="_blank" title="전주 도보여행 지도 Download" class="mapdown">Download</a></p>
+					</figcaption>
+				</figure>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+	<!--******************************************************************************************************************-->
+	<!--***컨텐츠 e******************************************************************************************************-->
+	<!--******************************************************************************************************************-->
+	</article>
+</body>
+</html>
